@@ -1,0 +1,20 @@
+# Firebase & sensitive files
+GoogleService-Info.plist
+*.apiKey
+*.env
+
+# macOS & Xcode
+.DS_Store
+*.xcuserstate
+*.xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+
+# Derived data
+build/
+DerivedData/
+
+# Swift package manager
+Packages/
+.swiftpm/
+.build/
+
