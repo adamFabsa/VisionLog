@@ -7,7 +7,7 @@ struct StartMenuView: View {
         VStack(spacing: 30) {
             Spacer()
 
-            Text("👁️ VisionLog")
+            Text("VisionLog")
                 .font(.largeTitle)
                 .bold()
 

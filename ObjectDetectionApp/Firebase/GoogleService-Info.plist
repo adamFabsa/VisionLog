@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBsXKGspNoQeuHF8UzHA4ecpaN5Wi3j4kk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>450470970730</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>adamabsa.ObjectDetectionApp</string>
+	<key>PROJECT_ID</key>
+	<string>objectdetectionapp-6922d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>objectdetectionapp-6922d.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:450470970730:ios:a75b1dd4ad3ccb43249113</string>
+</dict>
+</plist>

@@ -51,11 +51,6 @@
 			path = ObjectDetectionAppTests;
 			sourceTree = "<group>";
 		};
-		E049DDD02D4C28500025E8EC /* ObjectDetectionAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ObjectDetectionAppUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +98,6 @@
 			children = (
 				E049DDB42D4C284F0025E8EC /* ObjectDetectionApp */,
 				E049DDC62D4C28500025E8EC /* ObjectDetectionAppTests */,
-				E049DDD02D4C28500025E8EC /* ObjectDetectionAppUITests */,
 				E04352412D76388300B6AC2C /* Frameworks */,
 				E049DDB32D4C284F0025E8EC /* Products */,
 			);
@@ -181,9 +175,6 @@
 			);
 			dependencies = (
 				E049DDCF2D4C28500025E8EC /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E049DDD02D4C28500025E8EC /* ObjectDetectionAppUITests */,
 			);
 			name = ObjectDetectionAppUITests;
 			packageProductDependencies = (
@@ -431,7 +422,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"ObjectDetectionApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required for preview";
@@ -458,7 +449,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"ObjectDetectionApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required for preview";
