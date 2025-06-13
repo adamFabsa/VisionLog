@@ -6,6 +6,12 @@ VisionLog is a macOS app for real-time object recognition using the Mac’s came
 
 ---
 
+## Demo
+
+-  Demo Link:
+-  https://drive.google.com/file/d/17Znwkgum5uUoUCftYOmWodKoqgcnzmzE/preview
+
+---
 ## Features
 
 -  Real-time object detection using YOLOv3
@@ -14,9 +20,7 @@ VisionLog is a macOS app for real-time object recognition using the Mac’s came
 -  Smart system notifications on object frequency
 -  Custom settings tab (upload, notifications, theme)
 -  Unit + UI tests
-
 ---
-
 ## Built With
 
 - **SwiftUI**
