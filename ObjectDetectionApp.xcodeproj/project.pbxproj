@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E04352432D76388300B6AC2C /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04352422D76388300B6AC2C /* CoreML.framework */; };
+		E04352452D76388F00B6AC2C /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04352442D76388F00B6AC2C /* Vision.framework */; };
+		E04352472D76389D00B6AC2C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04352462D76389D00B6AC2C /* AVFoundation.framework */; };
+		E0CC4C6A2D7AB34100846C2F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E0CC4C692D7AB34100846C2F /* FirebaseFirestore */; };
+		E0CC4C6C2D7AB34100846C2F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E0CC4C6B2D7AB34100846C2F /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E049DDC42D4C28500025E8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E049DDAA2D4C284F0025E8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E049DDB12D4C284F0025E8EC;
+			remoteInfo = ObjectDetectionApp;
+		};
+		E049DDCE2D4C28500025E8EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E049DDAA2D4C284F0025E8EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E049DDB12D4C284F0025E8EC;
+			remoteInfo = ObjectDetectionApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E04352422D76388300B6AC2C /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		E04352442D76388F00B6AC2C /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		E04352462D76389D00B6AC2C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E049DDB22D4C284F0025E8EC /* ObjectDetectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectDetectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E049DDC32D4C28500025E8EC /* ObjectDetectionAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectDetectionAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E049DDCD2D4C28500025E8EC /* ObjectDetectionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectDetectionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E049DDB42D4C284F0025E8EC /* ObjectDetectionApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ObjectDetectionApp;
+			sourceTree = "<group>";
+		};
+		E049DDC62D4C28500025E8EC /* ObjectDetectionAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ObjectDetectionAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E049DDAF2D4C284F0025E8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04352472D76389D00B6AC2C /* AVFoundation.framework in Frameworks */,
+				E0CC4C6A2D7AB34100846C2F /* FirebaseFirestore in Frameworks */,
+				E04352452D76388F00B6AC2C /* Vision.framework in Frameworks */,
+				E0CC4C6C2D7AB34100846C2F /* FirebaseStorage in Frameworks */,
+				E04352432D76388300B6AC2C /* CoreML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049DDC02D4C28500025E8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049DDCA2D4C28500025E8EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E04352412D76388300B6AC2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E04352462D76389D00B6AC2C /* AVFoundation.framework */,
+				E04352442D76388F00B6AC2C /* Vision.framework */,
+				E04352422D76388300B6AC2C /* CoreML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E049DDA92D4C284F0025E8EC = {
+			isa = PBXGroup;
+			children = (
+				E049DDB42D4C284F0025E8EC /* ObjectDetectionApp */,
+				E049DDC62D4C28500025E8EC /* ObjectDetectionAppTests */,
+				E04352412D76388300B6AC2C /* Frameworks */,
+				E049DDB32D4C284F0025E8EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E049DDB32D4C284F0025E8EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E049DDB22D4C284F0025E8EC /* ObjectDetectionApp.app */,
+				E049DDC32D4C28500025E8EC /* ObjectDetectionAppTests.xctest */,
+				E049DDCD2D4C28500025E8EC /* ObjectDetectionAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E049DDB12D4C284F0025E8EC /* ObjectDetectionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E049DDD72D4C28500025E8EC /* Build configuration list for PBXNativeTarget "ObjectDetectionApp" */;
+			buildPhases = (
+				E049DDAE2D4C284F0025E8EC /* Sources */,
+				E049DDAF2D4C284F0025E8EC /* Frameworks */,
+				E049DDB02D4C284F0025E8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E049DDB42D4C284F0025E8EC /* ObjectDetectionApp */,
+			);
+			name = ObjectDetectionApp;
+			packageProductDependencies = (
+				E0CC4C692D7AB34100846C2F /* FirebaseFirestore */,
+				E0CC4C6B2D7AB34100846C2F /* FirebaseStorage */,
+			);
+			productName = ObjectDetectionApp;
+			productReference = E049DDB22D4C284F0025E8EC /* ObjectDetectionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E049DDC22D4C28500025E8EC /* ObjectDetectionAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E049DDDA2D4C28500025E8EC /* Build configuration list for PBXNativeTarget "ObjectDetectionAppTests" */;
+			buildPhases = (
+				E049DDBF2D4C28500025E8EC /* Sources */,
+				E049DDC02D4C28500025E8EC /* Frameworks */,
+				E049DDC12D4C28500025E8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E049DDC52D4C28500025E8EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E049DDC62D4C28500025E8EC /* ObjectDetectionAppTests */,
+			);
+			name = ObjectDetectionAppTests;
+			packageProductDependencies = (
+			);
+			productName = ObjectDetectionAppTests;
+			productReference = E049DDC32D4C28500025E8EC /* ObjectDetectionAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E049DDCC2D4C28500025E8EC /* ObjectDetectionAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E049DDDD2D4C28500025E8EC /* Build configuration list for PBXNativeTarget "ObjectDetectionAppUITests" */;
+			buildPhases = (
+				E049DDC92D4C28500025E8EC /* Sources */,
+				E049DDCA2D4C28500025E8EC /* Frameworks */,
+				E049DDCB2D4C28500025E8EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E049DDCF2D4C28500025E8EC /* PBXTargetDependency */,
+			);
+			name = ObjectDetectionAppUITests;
+			packageProductDependencies = (
+			);
+			productName = ObjectDetectionAppUITests;
+			productReference = E049DDCD2D4C28500025E8EC /* ObjectDetectionAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E049DDAA2D4C284F0025E8EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					E049DDB12D4C284F0025E8EC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E049DDC22D4C28500025E8EC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E049DDB12D4C284F0025E8EC;
+					};
+					E049DDCC2D4C28500025E8EC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E049DDB12D4C284F0025E8EC;
+					};
+				};
+			};
+			buildConfigurationList = E049DDAD2D4C284F0025E8EC /* Build configuration list for PBXProject "ObjectDetectionApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E049DDA92D4C284F0025E8EC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E0CC4C682D7AB34100846C2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E049DDB32D4C284F0025E8EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E049DDB12D4C284F0025E8EC /* ObjectDetectionApp */,
+				E049DDC22D4C28500025E8EC /* ObjectDetectionAppTests */,
+				E049DDCC2D4C28500025E8EC /* ObjectDetectionAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E049DDB02D4C284F0025E8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049DDC12D4C28500025E8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049DDCB2D4C28500025E8EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E049DDAE2D4C284F0025E8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049DDBF2D4C28500025E8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049DDC92D4C28500025E8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E049DDC52D4C28500025E8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E049DDB12D4C284F0025E8EC /* ObjectDetectionApp */;
+			targetProxy = E049DDC42D4C28500025E8EC /* PBXContainerItemProxy */;
+		};
+		E049DDCF2D4C28500025E8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E049DDB12D4C284F0025E8EC /* ObjectDetectionApp */;
+			targetProxy = E049DDCE2D4C28500025E8EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E049DDD52D4C28500025E8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E049DDD62D4C28500025E8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E049DDD82D4C28500025E8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ObjectDetectionApp/ObjectDetectionApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required for preview";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adamabsa.ObjectDetectionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E049DDD92D4C28500025E8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ObjectDetectionApp/ObjectDetectionApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required for preview";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adamabsa.ObjectDetectionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E049DDDB2D4C28500025E8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adamabsa.ObjectDetectionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectDetectionApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ObjectDetectionApp";
+			};
+			name = Debug;
+		};
+		E049DDDC2D4C28500025E8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adamabsa.ObjectDetectionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectDetectionApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ObjectDetectionApp";
+			};
+			name = Release;
+		};
+		E049DDDE2D4C28500025E8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adamabsa.ObjectDetectionAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ObjectDetectionApp;
+			};
+			name = Debug;
+		};
+		E049DDDF2D4C28500025E8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adamabsa.ObjectDetectionAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ObjectDetectionApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E049DDAD2D4C284F0025E8EC /* Build configuration list for PBXProject "ObjectDetectionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E049DDD52D4C28500025E8EC /* Debug */,
+				E049DDD62D4C28500025E8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E049DDD72D4C28500025E8EC /* Build configuration list for PBXNativeTarget "ObjectDetectionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E049DDD82D4C28500025E8EC /* Debug */,
+				E049DDD92D4C28500025E8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E049DDDA2D4C28500025E8EC /* Build configuration list for PBXNativeTarget "ObjectDetectionAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E049DDDB2D4C28500025E8EC /* Debug */,
+				E049DDDC2D4C28500025E8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E049DDDD2D4C28500025E8EC /* Build configuration list for PBXNativeTarget "ObjectDetectionAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E049DDDE2D4C28500025E8EC /* Debug */,
+				E049DDDF2D4C28500025E8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E0CC4C682D7AB34100846C2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E0CC4C692D7AB34100846C2F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0CC4C682D7AB34100846C2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E0CC4C6B2D7AB34100846C2F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0CC4C682D7AB34100846C2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E049DDAA2D4C284F0025E8EC /* Project object */;
+}
